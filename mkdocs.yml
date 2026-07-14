@@ -1,0 +1,5 @@
+site_name: 我的课程博客
+theme: readthedocs
+nav:
+  - 首页: index.md
+  - 第一篇博客: first-blog.md
