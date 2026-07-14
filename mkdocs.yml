@@ -3,3 +3,4 @@ theme: readthedocs
 nav:
   - 首页: index.md
   - 第一篇博客: first-blog.md
+  - 第二篇博客: second-blog.md
