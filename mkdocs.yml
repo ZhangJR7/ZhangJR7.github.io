@@ -1,6 +1,39 @@
 site_name: 我的课程博客
-theme: readthedocs
+site_url: https://zhangjr7.github.io
+site_author: ZhangJR7
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换暗色
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换亮色
+  font:
+    text: Noto Sans SC
+  features:
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+
 nav:
   - 首页: index.md
   - 第一篇博客: first-blog.md
   - 第二篇博客: second-blog.md
+
+plugins:
+  - search
+
+extra_css:
+  - assets/style.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZhangJR7
