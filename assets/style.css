@@ -1,0 +1,11 @@
+.md-content__inner {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+pre {
+  border-radius: 6px;
+}
+.md-typeset h1 {
+  border-left: 3px solid #3949ab;
+  padding-left: 12px;
+}
