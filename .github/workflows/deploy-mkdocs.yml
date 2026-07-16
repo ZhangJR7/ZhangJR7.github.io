@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install MkDocs
-        run: pip install mkdocs
+        run: pip install mkdocs mkdocs-material
       - name: Build static site
         run: mkdocs build
       - name: Upload site files
