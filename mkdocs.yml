@@ -30,9 +30,6 @@ nav:
 plugins:
   - search
 
-extra_css:
-  - assets/style.css
-
 extra:
   social:
     - icon: fontawesome/brands/github
